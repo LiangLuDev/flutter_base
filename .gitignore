@@ -28,12 +28,17 @@
 .pub-cache/
 .pub/
 /build/
+.metadata
+pubspec.lock
+test/
 
 # Android related
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
 **/android/captures/
 **/android/gradlew
+**/android/app/src/debug
+**/android/app/src/profile
 **/android/gradlew.bat
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
@@ -57,13 +62,16 @@
 **/ios/.generated/
 **/ios/Flutter/App.framework
 **/ios/Flutter/Flutter.framework
-**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter
 **/ios/Flutter/app.flx
 **/ios/Flutter/app.zip
 **/ios/Flutter/flutter_assets/
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner.xcodeproj
+**/ios/Runner.xcworkspace
+**/ios/Podfile.lock
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
